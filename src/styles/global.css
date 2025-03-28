@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+
+body {
+    font-family: 'Onest', sans-serif;
+    font-display: swap;
+    font-weight: 300; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 1000;
+}
+
+.important-text {
+    font-weight: 1000;
+}
+
+.img-gradient {
+    mask-image: linear-gradient(
+        black 90%,
+        transparent
+    );
+}
+
+.logo-gradient {
+    mask-image: linear-gradient(
+        transparent,
+        black 100%
+    );
+}
+
