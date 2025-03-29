@@ -19,7 +19,7 @@ const Team = () => {
           <img
             src={member.img}
             alt={member.name}
-            className="h-[400px] w-full object-cover img-shadow img-gradient filter grayscale-0"
+            className="h-[300px] w-full object-cover img-shadow img-gradient filter grayscale-0"
             loading="lazy"
           />
           
