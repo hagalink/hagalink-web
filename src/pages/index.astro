@@ -1,8 +1,66 @@
 ---
+import AnimatedImage from '../components/AnimatedImage'
+import Servicios from '../components/Servicios'
+import Team from '../components/Team'
 import Layout from '../layouts/Layout.astro'
+import { SliderStackTecnico } from '../components/SliderStackTecnico'
+import { FaCode, FaBrain, FaTools, FaRocket } from "react-icons/fa";
 
+const servicios = [
+  {
+    icon: FaCode,
+    title: "Desarrollo software",
+    text: "Creamos soluciones a medida con las mejores tecnologías para potenciar tu negocio.",
+    link: "/servicios/desarrollo-software",
+    linkText: "Ver más sobre desarrollo software"
+  },
+  {
+    icon: FaBrain,
+    title: "Consultoría IA",
+    text: "Optimiza tus procesos o servicios con inteligencia artificial y automatización avanzada.",
+    link: "/servicios/consultoria-ia",
+    linkText: "Explorar consultoría IA"
+  },
+  {
+    icon: FaTools,
+    title: "Mantenimiento técnico",
+    text: "Nos aseguramos de que tu infraestructura tecnológica funcione sin problemas y de manera segura.",
+    link: "/servicios/mantenimiento-tecnico",
+    linkText: "Más sobre mantenimiento técnico"
+  },
+  {
+    icon: FaRocket,
+    title: "Producto propio (futuro)",
+    text: "Estamos desarrollando un producto innovador que revolucionará el mercado. ¡Pronto más información!",
+    link: "/servicios/producto-propio",
+    linkText: "Descubrir más"
+  }
+];
 ---
 
 <Layout>
+  <section id="hero">
+    <AnimatedImage client:load/>
+  </section>
+  
+  <section id="servicios" class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto z-50">
+    {servicios.map(servicio => (
+      <Servicios 
+        icon={servicio.icon} 
+        title={servicio.title} 
+        text={servicio.text} 
+        link={servicio.link} 
+        linkText={servicio.linkText} 
+      />
+    ))}
+  </section>
 
+  <section id="stack-tecnico" class="max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto mt-28">
+    <SliderStackTecnico client:load/>
+  </section>  
+  
+  <section id="equipo" class="mt-20">
+    <Team />
+
+  </section>
 </Layout>
