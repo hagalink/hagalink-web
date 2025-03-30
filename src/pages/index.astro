@@ -4,10 +4,15 @@ import Servicios from '../components/jsx/Servicios'
 import Team from '../components/jsx/Team'
 import Layout from '../layouts/Layout.astro'
 import { SliderStackTecnico } from '../components/jsx/SliderStackTecnico'
-import { FaCode, FaBrain, FaTools, FaRocket } from "react-icons/fa";
+import { FaCode, FaBrain, FaTools } from "react-icons/fa";
 import { GoGraph } from "react-icons/go";
 import Timeline from '../components/astro/Timeline.astro'
-
+import Card from '../components/jsx/Card'
+import { MdAccessTime } from "react-icons/md";
+import { AiOutlineCalendar } from "react-icons/ai";
+import { IoRocketOutline } from "react-icons/io5";
+import { GiMeditation } from "react-icons/gi";
+import { FaHandshake } from "react-icons/fa";
 
 const servicios = [
   {
@@ -32,51 +37,104 @@ const servicios = [
     linkText: "Más sobre mantenimiento técnico"
   },
   {
-    icon: FaRocket,
+    icon: IoRocketOutline,
     title: "Producto propio (futuro)",
     text: "Estamos desarrollando un producto innovador que revolucionará el mercado. ¡Pronto más información!",
     link: "/servicios/producto-propio",
     linkText: "Descubrir más"
   }
 ];
+
+const cards = [
+  {
+    icon: AiOutlineCalendar,
+    title: "Jornada 4D",
+    text: "Creemos en un equilibrio entre productividad y bienestar, ofreciendo una jornada laboral que prioriza la calidad de vida.",
+  },
+  {
+    icon: MdAccessTime,
+    title: "Flexibilidad horaria",
+    text: "Fomentamos un ambiente de trabajo flexible, permitiendo a nuestros empleados gestionar su tiempo de manera efectiva.",
+  },
+  {
+    icon: IoRocketOutline,
+    title: "Formación continua",
+    text: "Ofrecemos oportunidades de formación y desarrollo continuo para que nuestros empleados alcancen su máximo potencial.",
+  },
+  {
+    icon: GiMeditation,
+    title: "Salud mental",
+    text: "Valoramos la salud mental de nuestros empleados, proporcionando recursos y apoyo para su bienestar emocional.",
+  }
+
+]
 ---
 
-<Layout>
-  <section id="hero">
-    <AnimatedImage client:load/>
-  </section>
-  
-  <section id="servicios" class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto z-50">
-    {servicios.map(servicio => (
-      <Servicios 
-        icon={servicio.icon} 
-        title={servicio.title} 
-        text={servicio.text} 
-        link={servicio.link} 
-        linkText={servicio.linkText} 
-      />
-    ))}
-  </section>
+<Layout title="Hagalink S.L.">
+  <head>
+    <title>Hagalink S.L. - Inicio</title>
+    <meta name="description" content="En Hagalink ofrecemos desarrollo de software, consultoría en inteligencia artificial, mantenimiento técnico y más. Apostamos por soluciones sólidas y humanas a largo plazo." />
+    <meta name="keywords" content="desarrollo software, consultoría IA, mantenimiento técnico, soluciones tecnológicas, hagalink" />
+    <meta property="og:title" content="Hagalink S.L. - Inicio" />
+    <meta property="og:description" content="En Hagalink ofrecemos desarrollo de software, consultoría en inteligencia artificial, mantenimiento técnico y más. Apostamos por soluciones sólidas y humanas a largo plazo." />
+    <meta property="og:image" content="/path/to/og-image.jpg" />
+    <meta property="og:url" content="https://hagalink.es" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hagalink S.L. - Inicio" />
+    <meta name="twitter:description" content="En Hagalink ofrecemos desarrollo de software, consultoría en inteligencia artificial, mantenimiento técnico y más. Apostamos por soluciones sólidas y humanas a largo plazo." />
+    <meta name="twitter:image" content="/path/to/twitter-image.jpg" />
+    <link rel="canonical" href="https://hagalink.es" />
+  </head>
 
-  <section id="stack-tecnico" class="max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto mt-28">
-    <SliderStackTecnico client:load/>
-  </section>  
-  
-  <section class="mt-40 max-w-[80%] lg:max-w-[60%] mx-auto" id="prevision">
-    <div class="flex sm:flex-row gap-5 items-start sm:items-center">
-      <GoGraph className="size-8 text-white" />
-      <h1 class="text-white font-light text-start text-xl sm:text-2xl md:text-3xl">
-      Previsión primer año
-      </h1>
-    </div>
-    <Timeline />
-  </section>
+  <main>
+    <section id="hero">
+      <AnimatedImage client:load />
+    </section>
+    
+    <section id="servicios" class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto z-50">
+      {servicios.map(servicio => (
+        <Servicios 
+          icon={servicio.icon} 
+          title={servicio.title} 
+          text={servicio.text} 
+          link={servicio.link} 
+          linkText={servicio.linkText} 
+        />
+      ))}
+    </section>
 
-  <section id="equipo" class="mt-10">
-    <Team />
-  </section>
+    <section id="stack-tecnico" class="max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto mt-28">
+      <SliderStackTecnico client:load />
+    </section>  
+    
+    <section class="mt-40 max-w-[80%] lg:max-w-[60%] mx-auto" id="prevision">
+      <div class="flex sm:flex-row gap-5 items-start sm:items-center">
+        <GoGraph className="size-8 text-white" />
+        <h1 class="text-white font-light text-start text-xl sm:text-2xl md:text-3xl">
+        Previsión primer año
+        </h1>
+      </div>
+      <Timeline />
+    </section>
 
-  <section class="max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[50%] mx-auto text-white text-center font-extralight text-base sm:text-lg md:text-xl lg:text-2xl p-10 sm:p-16 md:p-20 glow-text">
-    En hagalink somos enemigos del cortoplacismo, no damos soluciones rápidas sencillas y baratas... Nos sentamos contigo para apostar por tu empresa a largo plazo de manera sólida y humana.
-  </section>
+    <section class="flex flex-col sm:flex-col md:flex-col mx-auto max-w-[70%] lg:flex-row md:max-w-[50%] lg:max-w-[80%] mt-20 mb-10 gap-10 font-sans-serif text-white text-center">
+      {cards.map(card => (
+        <Card
+          icon={card.icon}
+          title={card.title}
+          text={card.text}
+        />
+      ))}
+    </section>
+
+    <section id="equipo" class="mt-10">
+      <Team />
+    </section>
+
+    <section class="max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[50%] mx-auto text-white text-center font-extralight text-base sm:text-lg md:text-xl lg:text-2xl p-10 sm:p-16 md:p-20 glow-text">
+      <span>
+        En hagalink somos enemigos del cortoplacismo, no damos soluciones rápidas sencillas y baratas... Nos sentamos contigo para apostar por tu empresa a largo plazo de manera sólida y humana.
+      </span>
+    </section>
+  </main>
 </Layout>
