@@ -1,4 +1,4 @@
-import { InfiniteSlider } from '../components/motion-primitives/infinite-slider';
+import { InfiniteSlider } from '../motion-primitives/infinite-slider';
 import { SiAstro } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";

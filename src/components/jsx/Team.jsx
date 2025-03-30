@@ -2,10 +2,10 @@ import React from 'react';
 
 const Team = () => {
   const teamMembers = [
-    { name: "Álvaro Fernández Amaro", img: "/alvaro.jpeg", title: "CDO Hagalink S.L.", subtitle: "Liderando la dirección creativa." },
-    { name: "Ignacio de Loyola Díaz Jiménez", img: "/ignacio.jpeg", title: "CEO Hagalink S.L.", subtitle: "Guiando la visión empresarial." },
-    { name: "Juan Deogracias Moya", img: "/juan.jpeg", title: "CIO Hagalink S.L.", subtitle: "Diseñando estrategias tecnológicas." },
-    { name: "Alejandro Bermejo Moral", img: "/alex.jpeg", title: "CTO Hagalink S.L.", subtitle: "Asegurando la excelencia técnica." },
+    { name: "Álvaro Fernández Amaro", img: "/alvaro.jpg", title: "CDO Hagalink S.L.", subtitle: "Liderando la dirección creativa." },
+    { name: "Ignacio de Loyola Díaz Jiménez", img: "/ignacio.jpg", title: "CEO Hagalink S.L.", subtitle: "Guiando la visión empresarial." },
+    { name: "Juan Deogracias Moya", img: "/juan.jpg", title: "CIO Hagalink S.L.", subtitle: "Diseñando estrategias tecnológicas." },
+    { name: "Alejandro Bermejo Moral", img: "/alex.jpg", title: "CTO Hagalink S.L.", subtitle: "Asegurando la excelencia técnica." },
   ];
 
   return (

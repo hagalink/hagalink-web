@@ -1,9 +1,9 @@
 ---
 import '../styles/global.css';
-import Hero from '../components/Hero.astro';
-import Header from '../components/Header.astro';
-import Team from '../components/Team.jsx';
-import AnimatedImage from '../components/AnimatedImage';
+import Header from '../components/jsx/Header';
+import { string } from 'astro:schema';
+
+const { title } = Astro.props;
 ---
 
 <!doctype html>
@@ -13,7 +13,7 @@ import AnimatedImage from '../components/AnimatedImage';
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Hagalink S.L.</title>
+		<title>{title}</title>
 	</head>
 	<body class="h-full w-full">
 		<div class="relative h-full w-full bg-gray-800">
