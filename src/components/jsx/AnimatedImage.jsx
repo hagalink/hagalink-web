@@ -8,7 +8,7 @@ const AnimatedImage = () => {
         alt="AnimatedImage Image"
         className="absolute"
         initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 0.8, opacity: 1 }}
+        animate={{ scale: 0.8, opacity: 1, rotate: 360 }}
         transition={{ duration: 2, ease: "easeOut" }}
       />
       <motion.div
