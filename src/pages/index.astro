@@ -5,6 +5,9 @@ import Team from '../components/Team'
 import Layout from '../layouts/Layout.astro'
 import { SliderStackTecnico } from '../components/SliderStackTecnico'
 import { FaCode, FaBrain, FaTools, FaRocket } from "react-icons/fa";
+import { GoGraph } from "react-icons/go";
+import Timeline from '../components/Timeline.astro'
+
 
 const servicios = [
   {
@@ -59,7 +62,17 @@ const servicios = [
     <SliderStackTecnico client:load/>
   </section>  
   
-  <section id="equipo" class="mt-20">
+  <section class="mt-40 max-w-[80%] lg:max-w-[60%] mx-auto">
+    <div class="flex sm:flex-row gap-5 items-start sm:items-center">
+      <GoGraph className="size-8 text-white" />
+      <h1 class="text-white font-light text-start text-xl sm:text-2xl md:text-3xl">
+      Previsión primer año
+      </h1>
+    </div>
+    <Timeline />
+  </section>
+
+  <section id="equipo" class="mt-10">
     <Team />
 
   </section>
