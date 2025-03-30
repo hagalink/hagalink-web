@@ -1,12 +1,12 @@
 ---
-import AnimatedImage from '../components/AnimatedImage'
-import Servicios from '../components/Servicios'
-import Team from '../components/Team'
+import AnimatedImage from '../components/jsx/AnimatedImage'
+import Servicios from '../components/jsx/Servicios'
+import Team from '../components/jsx/Team'
 import Layout from '../layouts/Layout.astro'
-import { SliderStackTecnico } from '../components/SliderStackTecnico'
+import { SliderStackTecnico } from '../components/jsx/SliderStackTecnico'
 import { FaCode, FaBrain, FaTools, FaRocket } from "react-icons/fa";
 import { GoGraph } from "react-icons/go";
-import Timeline from '../components/Timeline.astro'
+import Timeline from '../components/astro/Timeline.astro'
 
 
 const servicios = [
@@ -62,7 +62,7 @@ const servicios = [
     <SliderStackTecnico client:load/>
   </section>  
   
-  <section class="mt-40 max-w-[80%] lg:max-w-[60%] mx-auto">
+  <section class="mt-40 max-w-[80%] lg:max-w-[60%] mx-auto" id="prevision">
     <div class="flex sm:flex-row gap-5 items-start sm:items-center">
       <GoGraph className="size-8 text-white" />
       <h1 class="text-white font-light text-start text-xl sm:text-2xl md:text-3xl">
@@ -74,6 +74,9 @@ const servicios = [
 
   <section id="equipo" class="mt-10">
     <Team />
+  </section>
 
+  <section class="max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[50%] mx-auto text-white text-center font-extralight text-base sm:text-lg md:text-xl lg:text-2xl p-10 sm:p-16 md:p-20 glow-text">
+    En hagalink somos enemigos del cortoplacismo, no damos soluciones rápidas sencillas y baratas... Nos sentamos contigo para apostar por tu empresa a largo plazo de manera sólida y humana.
   </section>
 </Layout>
