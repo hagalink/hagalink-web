@@ -12,7 +12,6 @@ import { MdAccessTime } from "react-icons/md";
 import { AiOutlineCalendar } from "react-icons/ai";
 import { IoRocketOutline } from "react-icons/io5";
 import { GiMeditation } from "react-icons/gi";
-import { FaHandshake } from "react-icons/fa";
 
 const servicios = [
   {
@@ -88,7 +87,7 @@ const cards = [
 
   <main>
     <section id="hero">
-      <AnimatedImage client:load />
+      <AnimatedImage client:visible />
     </section>
     
     <section id="servicios" class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto z-50">
@@ -104,7 +103,7 @@ const cards = [
     </section>
 
     <section id="stack-tecnico" class="max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto mt-28">
-      <SliderStackTecnico client:load />
+      <SliderStackTecnico client:visible />
     </section>  
     
     <section class="mt-40 max-w-[80%] lg:max-w-[60%] mx-auto" id="prevision">
