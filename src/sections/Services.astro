@@ -1,0 +1,42 @@
+---
+import Servicios from '../components/jsx/Servicios'
+import { FaCode, FaBrain, FaTools } from "react-icons/fa";
+import { IoRocketOutline } from "react-icons/io5";
+
+const servicios = [
+  {
+    icon: FaCode,
+    title: "Desarrollo de software a medida",
+    text: "En Hagalink decimos basta ya al software rápido, barato y que no sirve. Desde la primera línea de código, integramos diseño, funcionalidad y escalabilidad. Sin plantillas. Sin atajos. Tu idea, hecha software.",
+
+  },
+  {
+    icon: FaBrain,
+    title: "Consultoría IA",
+    text: "La IA no es magia, ni humo. En Hagalink la usamos con cabeza: analizamos tu negocio y aplicamos solo lo que aporta valor real. Automatización con propósito. Predicción con sentido. IA que no estorba, sino que impulsa.",
+
+  },
+  {
+    icon: FaTools,
+    title: "Mantenimiento técnico",
+    text: "No somos esos técnicos que aparecen solo cuando todo explota. En Hagalink nos adelantamos a los problemas. Cuidamos tu infraestructura como si fuera la nuestra. Tranquilidad incluida, siempre.",
+
+  },
+  {
+    icon: IoRocketOutline,
+    title: "Visión a largo plazo",
+    text: "En Hagalink pensamos a largo plazo. Mientras seguimos creciendo con nuestros clientes, nos estamos formando activamente en tecnología blockchain y explorando ideas para crear un producto propio con ADN Hagalink.",
+
+  }
+];
+---
+
+<section id="servicios" class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 max-w-xs md:max-w-xl lg:max-w-[70%] mx-auto z-50">
+  {servicios.map(servicio => (
+    <Servicios 
+      icon={servicio.icon} 
+      title={servicio.title} 
+      text={servicio.text} 
+    />
+  ))}
+</section>
