@@ -1,143 +1,135 @@
+## 1️⃣ ¿Quiénes somos?
 
-# 📄 HAGALINK S.L.
-
----
-
-## 📅 1. Nombre de la empresa
-
-**Hagalink**  
-> Nombre corto, moderno y fácil de recordar. Conecta "hagane" (Acero en japonés) y "link", puesto que consideramos que hacemos soluciones fuertes y duraderas como el acero, creando conexiones o "links" con nuestros clientes inquebrantables.
+**Hagalink** es una startup que dice *basta* al software rápido y mal hecho.  
+Creamos soluciones a medida con inteligencia artificial, pero con cabeza y corazón: análisis real del negocio, trato humano, jornada de 4 días y salud mental en el centro.  
+Porque no queremos ser los más rápidos, queremos ser los mejores.  
+Y sobre todo, los más humanos en un mundo cada vez más artificial.
 
 ---
 
-## 📄 2. Forma jurídica
+## 2️⃣ Problema que resolvemos
 
-**Sociedad Limitada (SL)** *(a constituir tras conseguir el primer cliente)*
+Muchas startups, pymes y asesorías necesitan digitalizarse, pero lo que encuentran son soluciones genéricas, mal adaptadas o desarrolladores que no entienden su negocio.  
+La inteligencia artificial se vende como moda, no como herramienta real.  
 
-| Socios                          | Aportación provisional | Participación |
-|--------------------------------|-------------------------|----------------|
-| Ignacio de Loyola Díaz Jiménez | 750 €                  | 25%            |
-| Álvaro Fernández Amaro         | 750 €                  | 25%            |
-| Alejandro Moral Bermejo        | 750 €                  | 25%            |
-| Juan Deogracias Moya           | 750 €                  | 25%            |
+Falta algo esencial: proveedores que escuchen de verdad. Que analicen a fondo cada caso y desarrollen soluciones hiperpersonalizadas, con cercanía, criterio y calidad.  
+Eso es lo que no se está resolviendo hoy.
 
 ---
 
-## 🌟 3. Misión, visión y valores
+## 3️⃣ Nuestra solución
 
-### 🧭 Misión
-Desarrollar soluciones tecnológicas a medida, aplicando IA y entendiendo de forma profunda las necesidades reales del cliente, desde los puestos operativos hasta la dirección.
+En **Hagalink** ofrecemos desarrollo de software a medida con un enfoque distinto.
 
-### 🌍 Visión
-- 1 año: estar operativos y consolidados con primeros proyectos entregados.
-- 2–3 años: crecer en facturación, ampliar plantilla.
-- 5+ años: marca reconocida, fuerte, con identidad clara en el sector tech.
+Nos sumergimos en el negocio del cliente, diagnosticamos, y solo entonces proponemos.  
+Cada proyecto es único, cada solución también.
 
-### 🤲 Valores
-- 🧡 Personas primero (el equipo está por encima del cliente)
-- 💬 Transparencia y honestidad
-- ⏳ Agilidad y eficiencia en procesos
-- 😊 Trato humano y cercano
-- 💼 Compromiso con la salud mental y el trabajo flexible (teletrabajo + jornada 4 días)
+Aplicamos metodologías ágiles, usamos herramientas modernas, y trabajamos desde una cultura centrada en el bienestar y la eficiencia.  
+El resultado: software funcional, adaptado, y entregado con calidad humana.
 
 ---
 
-## 🔍 4. Análisis de mercado
+## 4️⃣ ¿Por qué ahora?
 
-### 🔖 Clientes objetivo
-- Startups y pymes en proceso de digitalización
-- Empresas que desean implementar IA o automatizar procesos
+Estamos en un momento clave.
 
-### 📆 Referentes / competencia
-- Empresas como **Gavisa** y **Dezen** (lideradas por Enrique Carrasco), conocidas por su modelo humano y semana laboral de 4 días.
+- Las pymes y startups necesitan digitalizarse ya.  
+- La IA ya no es el futuro, es el presente.  
+- Y el sector tech está saturado de modelos de trabajo tóxicos, impersonales y cortoplacistas.
 
-### 🌟 Propuesta diferencial
-- Cultura centrada en las personas
-- Entendimiento profundo de la empresa cliente
-- Tecnología moderna, enfoque ágil, trato de calidad
+**Hagalink** nace como respuesta: para ofrecer soluciones reales, bien hechas, desde una cultura empresarial sana y con propósito.
 
 ---
 
-## 💰 5. Modelo de negocio
+## 5️⃣ Tamaño de mercado y público objetivo
 
-| Servicio                  | Precio               | Observaciones                         |
-|--------------------------|----------------------|---------------------------------------|
-| Desarrollo software      | 30 €/hora            | A medida, con stack moderno           |
-| Consultoría IA           | 45 €/hora            | También en paquetes mensuales         |
-| Mantenimiento técnico     | desde 200 €/mes      | Ingresos recurrentes                  |
-| Producto propio (futuro) | SaaS, APIs, módulos  | Escalable, reutilizable, adaptable    |
+Nos dirigimos a:
 
-### 💡 Planes de consultoría mensual:
-- **Starter (5h)**: 200 €/mes
-- **Growth (10h)**: 400 €/mes
-- **Partner (20h)**: 750 €/mes
+- Startups tecnológicas
+- Pymes en digitalización
+- Asesorías y consultoras
+- Entidades públicas con interés en innovación
 
----
+Tenemos un canal claro para llegar a ellos:
 
-## 📆 6. Plan operativo
-
-### 🛠 Herramientas
-- Comunicación: Slack + Discord
-- Tareas: Asana
-- Control de código: GitHub or GitLab
-- Reuniones: Zoom, Google Meet, presencial
-
-### 🚀 Tecnologías (stack)
-- **Frontend:** Astro, React, TailwindCSS
-- **Backend:** Django REST (Python)
-
-### 📊 Organización interna
-- Reuniones diarias (10 min)
-- Desayuno semanal presencial
-- Sprints con metodologías ágiles (Scrum)
-- Trabajo híbrido 100% flexible
+- Presencia activa en LinkedIn
+- Web posicionada con SEO y SEM
+- Participación en eventos tech
+- Apoyo institucional: CADE, IMDEEC, El Patio
 
 ---
 
-## 💳 7. Plan financiero
+## 6️⃣ Competencia y propuesta diferencial
 
-### 💾 Costes iniciales mínimos:
-- Dominio + hosting: ~100 €/año
-- Resto: 0 € (herramientas gratuitas, sin gestoría, asesoramiento gratuito)
-- SL a constituir cuando haya liquidez (>600 €)
+Sí, hay muchas agencias y freelancers. Pero la mayoría ofrecen lo mismo: soluciones genéricas, impersonales o caras.
 
-### 📈 Escenario de ingresos:
-- **Base:** 1 proyecto mediano cada 2 meses → 900 €/mes
-- **Optimista:** 4 pequeños + 1 grande = 4.200 € (primeros 2 meses)
+**Hagalink** se diferencia porque:
 
----
-
-## 🔫 8. Análisis DAFO
-
-### 🌟 Fortalezas
-- Equipo joven con roles bien definidos
-- Cultura centrada en el bienestar del equipo
-- Experiencia comercial del CEO
-- Red institucional fuerte (CADE, IMDEC, FP, etc.)
-- Marca personal activa (+2.900 seguidores)
-
-### 🔴 Debilidades
-- Recursos financieros limitados
-- Sin casos de éxito previos como empresa
-- No constituida legalmente al inicio
-- Solo 1 miembro con experiencia comercial directa
-
-### 📈 Oportunidades
-- Demanda creciente de IA y digitalización
-- Apoyo institucional en etapa inicial
-- Cultura empresarial como diferencial real
-- Potencial escalabilidad con SaaS
-
-### ⚠️ Amenazas
-- Alta competencia en el sector tech
-- Desconfianza inicial por juventud del proyecto
-- Inestabilidad económica del entorno pyme
-- Dificultad de captación sin portafolio previo
+✅ Escuchamos  
+✅ Entendemos el negocio  
+✅ Creamos soluciones reales  
+✅ Y cuidamos tanto el producto como a las personas
 
 ---
 
-## 📚 9. Resumen ejecutivo
+## 7️⃣ Producto / Servicio
 
-Hagalink es una futura empresa dedicada al desarrollo de software a medida y consultoría en inteligencia artificial. Formada por cuatro socios con formación técnica y valores compartidos, busca transformar la relación con el cliente mediante una cultura de empresa centrada en las personas, eficiencia y soluciones reales.
+Desarrollamos software a medida:
 
-Gracias al enfoque lean, la estructura de costes bajos y el potencial de captación inicial, la empresa es viable desde el primer cliente, con posibilidad de escalar en el medio plazo. Hagalink aspira a posicionarse como un referente de calidad, humanidad e innovación dentro del sector tech.
+- Aplicaciones web modernas
+- Funcionalidades inteligentes con IA (cuando aplica)
+- Planes de soporte técnico y mantenimiento
+
+Trabajamos en sprints, entregamos rápido, documentamos bien y acompañamos de verdad al cliente.
+
+---
+
+## 8️⃣ Modelo de negocio
+
+Modelo mixto:
+
+- Ingresos puntuales por proyectos
+- Ingresos recurrentes por mantenimiento
+
+A medio plazo, lanzaremos productos propios tipo **SaaS**.  
+Nos constituiremos como **SL** en cuanto cerremos nuestro primer cliente.  
+Crecimiento sostenible, sin gastos innecesarios, con autonomía total.
+
+---
+
+## 9️⃣ El equipo
+
+Equipo joven, técnico y complementario:
+
+- **Ignacio** – CEO: gestión, estrategia, comunicación
+- **Álvaro** – CDO: diseño UX/UI y frontend
+- **Alejandro** – CTO: arquitectura, testing, backend
+- **Juan** – CIO: innovación, backend, seguridad
+
+Todos venimos del grado DAM y del Aula de Software Libre de Córdoba.  
+Sabemos programar, pero sobre todo, sabemos organizarnos y colaborar.
+
+---
+
+## 🔟 Finanzas
+
+📌 Inversión inicial: ~700 € (constitución, hosting, herramientas básicas)  
+📌 Aportación legal de 3.000 € como capital social operativo
+
+🎯 Objetivo mensual: facturar **~9.100 €**  
+Esto nos permite:
+
+- Sueldos brutos para recibir 1.400 € netos por socio
+- Cubrir costes sociales y operativos
+- Generar un **10 % de beneficio** para reinversión
+
+No necesitamos financiación externa. El modelo es realista y sostenible.
+
+---
+
+## 🧩 Cierre
+
+**Hagalink** no es solo una empresa de software.
+
+Es una forma distinta de hacer tecnología: cercana, ética, ágil y centrada en las personas.  
+Porque en un mundo cada vez más artificial… lo que más importa sigue siendo lo humano.
