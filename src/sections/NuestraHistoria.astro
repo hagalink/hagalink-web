@@ -3,7 +3,7 @@ import { FaUsers, FaLightbulb, FaStar, FaArrowRightLong, FaArrowDownLong} from "
 
 ---
 
-<section class="mt-80 grid text-center justify-center items-center">
+<section id="content"class="mt-80 grid text-center justify-center items-center">
   <h1 class="text-4xl md:text-6xl lg:text-8xl text-neutral-100 glow-title">
     Nuestra Historia
   </h1>
@@ -53,3 +53,18 @@ import { FaUsers, FaLightbulb, FaStar, FaArrowRightLong, FaArrowDownLong} from "
     Ver más sobre nuestra historia
   </a>
 </section>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fade-in-up' );
+        observer.unobserve(entry.target); 
+      }
+    });
+  });
+
+  document.querySelectorAll('#content').forEach(el => {
+    observer.observe(el);
+  });
+</script>

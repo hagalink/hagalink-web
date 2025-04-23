@@ -5,3 +5,18 @@ import Team from "../components/jsx/Team";
 <section id="equipo" class="mt-50">
   <Team />
 </section>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fade-in-up' );
+        observer.unobserve(entry.target); 
+      }
+    });
+  });
+
+  document.querySelectorAll('#equipo').forEach(el => {
+    observer.observe(el);
+  });
+</script>
