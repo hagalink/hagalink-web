@@ -1,8 +1,6 @@
 ---
 import '../styles/global.css';
 import Header from '../components/jsx/Header';
-import { string } from 'astro:schema';
-
 const { title } = Astro.props;
 ---
 
@@ -10,29 +8,26 @@ const { title } = Astro.props;
 <html lang="es">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<meta name="description" content="Discover the best solutions for your needs with Hagalink. We provide top-notch services to help you succeed." />
-		<meta name="keywords" content="Hagalink, solutions, services, success, business, technology" />
-		<meta name="author" content="Hagalink Team" />
-		<meta property="og:title" content={title} />
-		<meta property="og:description" content="Discover the best solutions for your needs with Hagalink. We provide top-notch services to help you succeed." />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://hagalink.netlify.app" />
-		<meta property="og:image" content="https://hagalink.netlify.app/og-image.jpg" />
+		<meta name="description" content="En Hagalink ofrecemos desarrollo de software, consultoría en inteligencia artificial, mantenimiento técnico y más. Apostamos por soluciones sólidas y humanas a largo plazo." />
+		<meta name="keywords" content="desarrollo software, consultoría IA, mantenimiento técnico, soluciones tecnológicas, hagalink" />
+		<meta property="og:title" content="Hagalink S.L. - Inicio" />
+		<meta property="og:description" content="En Hagalink ofrecemos desarrollo de software, consultoría en inteligencia artificial, mantenimiento técnico y más. Apostamos por soluciones sólidas y humanas a largo plazo." />
+		<meta property="og:image" content="/path/to/og-image.jpg" />
+		<meta property="og:url" content="https://hagalink.es" />
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content={title} />
-		<meta name="twitter:description" content="Discover the best solutions for your needs with Hagalink. We provide top-notch services to help you succeed." />
-		<meta name="twitter:image" content="https://hagalink.netlify.app/twitter-image.jpg" />
+		<meta name="twitter:title" content="Hagalink S.L. - Inicio" />
+		<meta name="twitter:description" content="En Hagalink ofrecemos desarrollo de software, consultoría en inteligencia artificial, mantenimiento técnico y más. Apostamos por soluciones sólidas y humanas a largo plazo." />
+		<meta name="twitter:image" content="/path/to/twitter-image.jpg" />
+		<link rel="canonical" href="https://hagalink.es" />
+		<link rel="icon" href="/favicon.svg" type="image/svg" />
 	</head>
 	<body class="h-full w-full overflow-x-hidden">
-		<div class="relative h-full w-full bg-gray-800">
-			<div class="absolute inset-0 bg-[linear-gradient(to_right,#6b6b6b3e_1px,transparent_1px),linear-gradient(to_bottom,#6b6b6b3e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+			<div class="fixed inset-0 -z-10 h-full w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#898893_150%)]"></div>
 			<Header />
-			<slot />
-
+			<main>
+				<slot />
+			</main>
 		</div>
 	</body>
 </html>
