@@ -46,7 +46,7 @@ const Team = () => {
           <img
             src={member.img}
             alt={member.name}
-            className="w-full h-auto max-w-[250px] max-h-[400px] object-cover img-shadow img-gradient filter grayscale hover:grayscale-0 rounded-2xl"
+            className="w-full h-auto max-w-[300px] max-h-[400px] object-cover img-shadow img-gradient filter grayscale hover:grayscale-0 rounded-2xl"
             loading="lazy"
           />
           
