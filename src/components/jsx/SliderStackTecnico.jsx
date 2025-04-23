@@ -11,6 +11,7 @@ import { FaDocker } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiTypescript } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { SiNestjs } from 'react-icons/si';
 
 export function SliderStackTecnico() {
   const iconColor = "#FFFFFF";
@@ -29,6 +30,7 @@ export function SliderStackTecnico() {
       <GrMysql className="text-white w-16 h-16 sm:w-24 sm:h-24" />
       <SiTypescript className="text-white w-16 h-16 sm:w-24 sm:h-24" />
       <SiPostgresql className="text-white w-16 h-16 sm:w-24 sm:h-24" />
+      <SiNestjs className="text-white w-16 h-16 sm:w-24 sm:h-24" />
     </InfiniteSlider>
   );
 }
