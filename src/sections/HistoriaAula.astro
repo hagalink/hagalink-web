@@ -1,0 +1,47 @@
+---
+import { FaArrowLeft } from "react-icons/fa6";
+import { IoIosArrowForward } from "react-icons/io";
+---
+
+<section class="flex flex-col min-h-full mb-40">
+  <div class="flex flex-col flex-grow">
+    <div class="flex flex-col md:flex-row flex-grow justify-center">
+      <div class="flex flex-col gap-5 items-start pt-20 md:pt-28 h-auto ml-5 md:ml-20">
+        <button class="text-neutral-200 cursor-pointer p-2 hover:scale-110 hover:text-white transition-all duration-500" onclick="window.history.back()">
+          <FaArrowLeft className="text-2xl md:text-3xl" />
+        </button>
+        <img src="/logoaula.svg" alt="Logo Aula" loading="lazy" transition:name="ASL" class="mx-auto md:mx-0 w-40 md:w-96">
+        <a href="https://aulasoftwarelibrecordoba.netlify.app" class="flex justify-center items-center gap-2 w-full text-center bg-neutral-800 p-2 text-neutral-100 font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-700 hover:scale-105">
+          Visitar la web del Aula de Software Libre 
+          <IoIosArrowForward/>
+        </a>
+      </div>
+
+      <div class="flex flex-col gap-5 items-center pt-10 md:pt-28 h-auto ml-5 md:ml-20">
+        <h1 class="text-2xl md:text-4xl text-neutral-100 glow-title text-center md:text-left">
+          El Aula de Software Libre de la FP de Córdoba
+        </h1>
+        <div class="prose text-neutral-300 text-sm md:text-lg">
+          <p class="mx-auto prose prose-invert max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-2xl">
+            En el Aula de Software Libre de la FP de Córdoba, un grupo de estudiantes apasionados por la tecnología y el software libre se unieron para crear algo extraordinario.  
+
+            <br>
+            <br>
+
+            Con una visión compartida y un deseo de aprender, comenzaron a colaborar en proyectos innovadores que no solo desafiaban sus habilidades técnicas, sino que también fomentaban un ambiente de trabajo en equipo y creatividad.  
+            A medida que avanzaban, se dieron cuenta de que su pasión por el software libre iba más allá de las aulas.
+            Se convirtieron en defensores de la filosofía del software libre, promoviendo la colaboración y el intercambio de conocimientos.
+            Con el tiempo, su dedicación y esfuerzo dieron sus frutos, y el Aula de Software Libre se convirtió en un referente en la comunidad educativa.
+
+            <br>
+            <br>
+
+            La experiencia adquirida en el aula no solo les brindó habilidades técnicas, sino también la capacidad de trabajar en equipo, resolver problemas y adaptarse a los desafíos del mundo real.
+            Fue en este entorno donde nació la idea de Hagalink, una startup que busca llevar la esencia del software libre al mundo empresarial.
+            La historia del Aula de Software Libre es un testimonio del poder de la colaboración, la creatividad y la pasión por el software libre.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
