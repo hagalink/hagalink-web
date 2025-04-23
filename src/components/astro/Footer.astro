@@ -1,0 +1,36 @@
+---
+import { LiaLinkedinIn } from "react-icons/lia";
+import { LiaInstagram } from "react-icons/lia";
+import { FiGithub } from "react-icons/fi";
+---
+
+<footer class="w-full bg-transparent text-gray-400 px-6 py-10">
+  <hr class="w-full border-gray-600 mb-6" />
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center text-center justify-between gap-12 text-sm">
+    <div class="flex flex-col items-center space-y-3 min-w-[180px]">
+      <img src="/favicon.svg" alt="Logo Hagalink" class="size-10 opacity-90 mx-auto" />
+      <p class="text-xs text-gray-600">© 2025 Hagalink. Todos los derechos reservados</p>
+    </div>
+
+    <div class="space-y-1">
+      <p>600 67 98 15</p>
+      <p>info@hagalink.es</p>
+    </div>
+
+    <div class="space-y-1">
+      <p>Lunes a jueves: 7:00 – 15:00</p>
+    </div>
+
+    <div class="flex gap-4 items-center">
+      <a href="/" target="_blank" rel="noopener noreferrer" class="hover:opacity-100 opacity-60 transition-opacity">
+        <FiGithub className="h-5 w-5" />
+      </a>
+      <a href="" target="_blank" class="hover:opacity-100 opacity-60 transition-opacity">
+        <LiaInstagram className="h-5 w-5" />
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:opacity-100 opacity-60 transition-opacity">
+        <LiaLinkedinIn className="h-5 w-5" />
+      </a>
+    </div>
+  </div>
+</footer>

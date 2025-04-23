@@ -1,0 +1,55 @@
+---
+import { FaUsers, FaLightbulb, FaStar, FaArrowRightLong, FaArrowDownLong} from "react-icons/fa6"
+
+---
+
+<section class="mt-80 grid text-center justify-center items-center">
+  <h1 class="text-4xl md:text-6xl lg:text-8xl text-neutral-100 glow-title">
+    Nuestra Historia
+  </h1>
+
+  <div class="flex flex-col md:flex-row items-center gap-8 md:gap-4 lg:gap-8 mt-10 text-neutral-100">
+
+    <img
+      src="/logoaula.svg"
+      alt="Logo Aula"
+      transition:name="ASL"
+      loading="lazy"
+      class="size-20 border-neutral-200"
+    />
+
+    <FaArrowDownLong size={40} className="md:hidden" />
+    <FaArrowRightLong size={40} className="hidden md:block" />
+
+    <FaUsers size={60} className="text-neutral-100" />
+
+    <FaArrowDownLong size={40} className="md:hidden" />
+    <FaArrowRightLong size={40} className="hidden md:block" />
+
+    <FaStar size={60} className="text-neutral-100" />
+
+    <FaArrowDownLong size={40} className="md:hidden" />
+    <FaArrowRightLong size={40} className="hidden md:block" />
+
+    <FaLightbulb size={60} className="text-neutral-100" />
+
+    <FaArrowDownLong size={40} className="md:hidden" />
+    <FaArrowRightLong size={40} className="hidden md:block" />
+
+    <img
+      src="/favicon.svg"
+      alt="Logo Hagalink"
+      loading="lazy"
+      class="size-32"
+    />
+  </div>
+
+  <p class="mt-10 max-w-xs mx-auto text-lg text-neutral-300">
+    Todo comenzó en el aula. Un grupo con pasión se unió, compartimos ideas, brillamos, 
+    y tras seleccionar lo mejor de lo mejor... nació Hagalink.
+  </p>
+
+  <a href="/historia-aula" id="aula-historia" class="bg-neutral-600 hover:scale-110 duration-500 transition-all hover:bg-neutral-700 text-neutral-100 p-2 mt-5 w-64 mx-auto font-bold rounded-lg">
+    Ver más sobre nuestra historia
+  </a>
+</section>
