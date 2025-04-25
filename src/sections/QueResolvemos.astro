@@ -23,17 +23,3 @@
   </div>
 </section>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fade-in-right' );
-        observer.unobserve(entry.target); 
-      }
-    });
-  });
-
-  document.querySelectorAll('#title, #content').forEach(el => {
-    observer.observe(el);
-  });
-</script>

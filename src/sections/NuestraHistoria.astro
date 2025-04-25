@@ -54,17 +54,3 @@ import { FaUsers, FaLightbulb, FaStar, FaArrowRightLong, FaArrowDownLong} from "
   </a>
 </section>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fade-in-up' );
-        observer.unobserve(entry.target); 
-      }
-    });
-  });
-
-  document.querySelectorAll('#content').forEach(el => {
-    observer.observe(el);
-  });
-</script>
